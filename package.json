@@ -1,0 +1,19 @@
+{
+  "name": "git340-final",
+  "version": "1.0.0",
+  "description": "GIT 340 final assignment 8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caraclarke/git340-final.git"
+  },
+  "author": "Cara Clarke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caraclarke/git340-final/issues"
+  },
+  "homepage": "https://github.com/caraclarke/git340-final#readme"
+}
