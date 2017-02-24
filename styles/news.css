@@ -11,21 +11,30 @@ h1 {
 }
 
 body {
-  color: black;
+  background-color: #e9e9e9;
+  color: #222222;
   padding-top:50px;
   text-align: left;
 }
 
-footer {
+.panel {
+  background-color: #e9e9e9;
+}
+
+/*footer {
   margin-top:40px;
   padding-top:40px;
   padding-bottom:40px;
   background-color:#ededed;
-}
+}*/
 
 .news-img {
   width:150px;
   height:150px
+}
+
+.news-item {
+  padding-left: 90px;
 }
 
 #news-body {
