@@ -2,9 +2,14 @@
   width:auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 body {
   color: black;
   padding-top:50px;
+  text-align: left;
 }
 
 footer {
@@ -14,6 +19,10 @@ footer {
   background-color:#ededed;
 }
 
+.news-img {
+  width:150px;
+  height:150px
+}
 
 #news-body {
   min-height:199px;
