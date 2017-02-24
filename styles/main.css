@@ -19,6 +19,15 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.hide {
+  height: 0;
+  opacity: 0;
+}
+
+.show {
+  height: 250px;
+  opacity: 1;
+}
 
 /*
  * Base structure
@@ -27,12 +36,15 @@ a:hover {
 html,
 body {
   height: 100%;
-  background:url('/images/honda-car.jpg') no-repeat;
-  background-size: cover;
 }
 body {
   color: #fff;
   text-align: center;
+}
+
+.home {
+  background:url('/images/honda-car.jpg') no-repeat;
+  background-size: cover;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -159,4 +171,26 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+}
+
+/*
+* news page
+*/
+
+.news-page {
+  /*background-color: blue;*/
+}
+
+.news-page .container-marketing {
+  margin-top: 90px;
+}
+
+.news-page a,
+.news-page a:hover,
+.news-page a:focus {
+  color: red;
+}
+
+.news-page h4 {
+  text-align: left;
 }
