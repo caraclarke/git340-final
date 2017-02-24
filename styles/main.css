@@ -2,6 +2,10 @@
  * Globals
  */
 
+.navbar-fix {
+  z-index: 100;
+}
+
 /* Links */
 a,
 a:focus,
