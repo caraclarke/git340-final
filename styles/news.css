@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+.row {
+  height: 200px;
+}
+
 body {
   color: black;
   padding-top:50px;
