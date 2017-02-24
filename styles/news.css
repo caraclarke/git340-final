@@ -6,19 +6,28 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  border-bottom: 3px solid #C1292C;
+  padding-bottom: 10px;
+}
+
+p {
+  color: #747c8b;
+}
+
 .row {
   height: 200px;
 }
 
 body {
-  background-color: #e9e9e9;
+  background-color: #fff;
   color: #222222;
   padding-top:50px;
   text-align: left;
 }
 
 .panel {
-  background-color: #e9e9e9;
+  background-color: #fff;
 }
 
 /*footer {
