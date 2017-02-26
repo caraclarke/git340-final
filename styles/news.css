@@ -6,6 +6,13 @@ h1 {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .mastfoot {
+    position: static;
+    bottom: 0;
+  }
+}
+
 h3 {
   border-bottom: 3px solid #C1292C;
   padding-bottom: 10px;
