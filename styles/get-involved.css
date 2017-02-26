@@ -3,6 +3,21 @@ body {
   color: #222222;
 }
 
+.container, a {
+  color: #222;
+}
+
+.mastfoot {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .mastfoot {
+    position: static;
+    bottom: 0;
+  }
+}
+
 .involved {
   margin-top: 90px;
   color: black;
